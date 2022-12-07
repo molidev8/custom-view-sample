@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomSwitch">
+        
+        <attr name="switch_type" format="enum">
+            <enum name="vanilla" value="1" />
+            <enum name="small" value="2" />
+            <enum name="big" value="3" />
+            <enum name="pill" value="4" />
+        </attr>
+        <attr name="anim_text" format="boolean" />
+        <attr name="manual" format="boolean" />
+        <attr name="textVisible" format="boolean" />
+        <attr name="text" format="string" />
+        
+    </declare-styleable>
+
+</resources>
